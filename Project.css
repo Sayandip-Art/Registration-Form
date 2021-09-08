@@ -1,0 +1,114 @@
+h2{
+       padding:10px;
+       font-weight:bold;
+       text-align:center;
+       text-decoration:underline;
+       text-shadow:3px 3px 5px black;
+       font-family:showcard gothic;
+       font-size:60px;
+       color:red;
+       letter-spacing:3px;
+       word-spacing:10px;
+}
+h2:hover{
+       color:#0000FF;
+}
+
+
+#form_table{
+ color:white; 
+ font-size: 18px; 
+ font-style: normal;
+ font-weight: bold;
+ background-color: #006600;  
+ border: 5px dashed yellow;
+ justify-content:center;
+ align-serif:center;
+ padding:10px;
+}
+td:nth-child(2n+1){
+     font-family:comic sans ms;
+       font-size:18px;
+} 
+td:nth-child(2n+2){
+     font-family:times new roman;
+       font-size:18px;
+} 
+td:nth-child(2n+1):hover{
+       text-shadow:3px 3px 5px yellow;
+}
+#qualification_table{
+   border:5px solid white;
+   justify-content:center;
+   align-serif:center;
+   text-align:center;
+   font-size:15px;
+   font-family:comic sans ms;
+}
+
+#qualification_table:hover{
+       text-shadow:3px 3px 5px yellow;
+}
+
+input[type=text]{
+  width: 80%;
+  padding:12px 20px;
+  margin:px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 30%;
+  padding:12px 20px;
+  margin:px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#mobile,#alnumber,#presentpin,#permanentpin{
+  width: 20%;
+}
+#presentcity,#permanentcity,#presentstate,#permanentstate,#presentdistrict,#permanentdistrict{
+  width: 60%;
+}
+#country{
+  width: 15%;
+}
+#Other_Hobby{
+  width:50%;
+}
+#Birthday_Day,#Birthday_Month,#Birthday_Year{
+  width: 15%;
+  padding:12px 20px;
+  margin:px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=file]{
+  width: 80%;
+
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+button[type=button]{
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight:bold;
+  font-size: 20px;
+  font-family:comic sans ms;
+}
+button[type=button]:hover{
+       text-shadow:3px 3px 5px yellow;
+}
